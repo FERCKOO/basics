@@ -13,7 +13,7 @@ import { Component } from '@angular/core';
       <dd>{{edad}}</dd>
 
       <td>Metodo: </td>
-      <dd>{{getHeroDescription()}}</dd>
+      <dd>{{heroDescription()}}</dd>
 
       <td>Capitalizado: </td>
       <dd>{{capitaliceName()}}</dd>
@@ -46,7 +46,7 @@ export class HeroComponent {
     return this.nombreHeroe.toUpperCase();
   }
 
-  getHeroDescription(): string {
+  heroDescription(): string {
     return `${this.nombreReal} - ${this.nombreHeroe} - ${this.edad}`;
   }
 
