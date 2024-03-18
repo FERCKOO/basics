@@ -36,7 +36,7 @@ import { Component } from '@angular/core';
 
 export class HeroComponent {
 
-  constructor() { }
+  constructor() {}
 
   public nombreReal: string = 'Peter Parker'
   public nombreHeroe: string = 'Spider-man'
